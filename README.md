@@ -20,18 +20,23 @@ Ensure the paper presents a novel idea, method, application, and code !
     ◦    Limitations: Identify any limitations in the proposed methods. Are there specific scenarios where the approach might fail?
     ◦    Reproducibility: Assess whether the methods and results are reproducible. Are sufficient details provided for others to replicate the study?
     ◦    Evaluation Metrics: Critique the choice of evaluation metrics. Are they appropriate for the problem being addressed?
-  
-    6    Prepare, run and anlyze novel numerical experiments
 
-     ◦    Conduct your own experiments on a new dataset neither used in the paper nor in the provided code library, or define a toy dataset, study the behaviour of the proposed approach on this new set.
+    
+    6 Prepare, run and anlyze novel numerical experiments
 
-     7     Write the report 
+   ◦    Conduct your own experiments on a new dataset neither used in the paper nor in the provided code library, or define a toy dataset, study the behaviour of the proposed approach on this new set.
+
+   7     Write the report 
+
+
 
 Please Indicate the title and the name of the authors, and publicaiton venue in the first page togather with your names.
     ◦    Introduction: Briefly introduce the paper and its significance.
     ◦    Pros: Outline the strengths identified in your analysis, providing evidence and examples from the paper.
     ◦    Cons: Discuss the weaknesses, supported by specific points from the text.
     ◦    Numerical experiments: conduct your own experiments with a new dataset not used in the paper or provided library, or define a toy dataset, study  the behaviour of the propsoed approach on this new set.
+
+
 
 ◦    Conclusion: Summarize your findings and suggest areas for future research or improvements.
     8    Add your code and a notebook for running your experiments
