@@ -1,42 +1,101 @@
-# Kernel-machines-project instructions : 
+# Kernel Machines Paper Review Guidelines
 
- Examples of topics: kernel methods, kernel-based statistical testing, deep kernel, kernel approximation, gaussian processes, vector and functional valued regression with kernels, neural tangent kernel, convolutional kernel networks .....kernels and transformers.
+## Topics of Interest
 
-Ensure the paper presents a novel idea, method, application, and code !
-    ◦    Send email to me with Email subject: [Kernel Machines] so that I can check the adequation of this paper with respect to this course, no later than Oct 15.
-    2    Read the Paper Thoroughly:
-    ◦    Focus on understanding the core concepts, methodologies, results, and conclusions.
-    ◦    Position the contribution in terms of novelty regarding the key elements of ML methodology: new task definition, hypothesis space /architecture,  loss function,  regularization, optimization,  evaluation metrics,…
-    3    Identify the Context:
-    ◦    Note the problem the paper addresses and its relevance in the field of machine learning.
-    ◦    Consider the state-of-the-art methods prior to this work and how the proposed method fits into the landscape.
-    4    Analyze the Pros:
-    ◦    Innovation: Discuss the novelty of the approach. What makes it unique compared to previous works?
-    ◦    Methodology: Evaluate the soundness of the proposed methods. Are they well-justified and robust?
-    ◦    Results: Analyze the results. Are they convincing? Do they demonstrate clear advantages over existing approaches?
-    ◦    Applications: Consider the practical implications. Does the work have real-world applications? How impactful is it?
-    ◦    Clarity: Evaluate the clarity of the writing and presentation. Is the paper well-organized and easy to follow?
-    5    Analyze the Cons:
-    ◦    Limitations: Identify any limitations in the proposed methods. Are there specific scenarios where the approach might fail?
-    ◦    Reproducibility: Assess whether the methods and results are reproducible. Are sufficient details provided for others to replicate the study?
-    ◦    Evaluation Metrics: Critique the choice of evaluation metrics. Are they appropriate for the problem being addressed?
+Examples of topics include (but are not limited to):
 
-    
-    6 Prepare, run and anlyze novel numerical experiments
+- Kernel methods
+- Kernel-based statistical testing
+- Deep kernels
+- Kernel approximation
+- Gaussian processes
+- Vector and functional-valued regression with kernels
+- Neural tangent kernel
+- Convolutional kernel networks
+- Kernels and transformers
 
-   ◦    Conduct your own experiments on a new dataset neither used in the paper nor in the provided code library, or define a toy dataset, study the behaviour of the proposed approach on this new set.
+## Paper Selection Criteria
 
-   7     Write the report 
+Ensure the selected paper meets the following criteria:
 
+- **Novelty**: The paper must present a novel idea, method, or application.
+- **Code Availability**: The paper should provide code to reproduce its findings.
 
+### Submission Instructions
 
-Please Indicate the title and the name of the authors, and publicaiton venue in the first page togather with your names.
-    ◦    Introduction: Briefly introduce the paper and its significance.
-    ◦    Pros: Outline the strengths identified in your analysis, providing evidence and examples from the paper.
-    ◦    Cons: Discuss the weaknesses, supported by specific points from the text.
-    ◦    Numerical experiments: conduct your own experiments with a new dataset not used in the paper or provided library, or define a toy dataset, study  the behaviour of the propsoed approach on this new set.
+1. **Approval Request**:
+   - Send an email with the subject line: `[Kernel Machines]` to request approval.
+   - Ensure you send the request no later than **October 15**.
 
+## Review Process
 
+### 1. Read the Paper Thoroughly
 
-◦    Conclusion: Summarize your findings and suggest areas for future research or improvements.
-    8    Add your code and a notebook for running your experiments
+Focus on understanding and analyzing the following aspects:
+
+- **Core Concepts**: Understand the methodologies, results, and conclusions.
+- **Novelty Positioning**: Evaluate the paper's contribution within the broader machine-learning context, considering:
+  - New task definitions
+  - Hypothesis space/architecture
+  - Loss functions
+  - Regularization
+  - Optimization techniques
+  - Evaluation metrics
+
+### 2. Identify the Context
+
+- **Problem Statement**: Identify the core problem the paper addresses and its relevance to the field.
+- **State-of-the-Art**: Understand prior methods and position the proposed method within the current research landscape.
+
+### 3. Analyze the Pros
+
+Evaluate the strengths of the paper based on the following dimensions:
+
+- **Innovation**: What is novel about the approach? How does it differ from previous work?
+- **Methodology**: Are the proposed methods well-justified and robust?
+- **Results**: Are the results compelling and do they clearly outperform existing approaches?
+- **Applications**: Are there practical, real-world implications?
+- **Clarity**: Is the paper well-written, clear, and easy to follow?
+
+### 4. Analyze the Cons
+
+Critically assess potential weaknesses:
+
+- **Limitations**: Identify specific scenarios where the method might underperform.
+- **Reproducibility**: Are sufficient implementation details provided to replicate the study?
+- **Evaluation Metrics**: Are the chosen metrics appropriate for the problem?
+
+### 5. Conduct Novel Numerical Experiments
+
+- **Experiment Design**: Design and run new experiments using:
+  - A new dataset not used in the paper or the provided code library.
+  - Alternatively, define a toy dataset to study the proposed approach's behavior.
+
+### 6. Write the Report
+
+Your report should follow this structure:
+
+1. **Title Page**
+   - Paper title
+   - Authors' names
+   - Publication venue
+   - Your name(s)
+
+2. **Introduction**
+   - Briefly introduce the paper and its significance.
+
+3. **Pros**
+   - Outline the strengths identified, with supporting evidence from the paper.
+
+4. **Cons**
+   - Discuss the weaknesses, supported by specific points from the text.
+
+5. **Numerical Experiments**
+   - Describe and present the results of your independent experiments.
+
+6. **Conclusion**
+   - Summarize your findings and suggest future research directions or improvements.
+
+7. **Code and Notebook**
+   - Include your code and a Jupyter notebook to reproduce your experiments.
+
